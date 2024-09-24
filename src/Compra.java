@@ -7,4 +7,12 @@ public class Compra {
         this.valor = valor;
         this.descripcion = descripcion;
     }
+
+    public double getValor() {
+        return valor;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
 }
